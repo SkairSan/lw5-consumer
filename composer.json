@@ -1,0 +1,20 @@
+{
+    "name": "skairsan/pizza-store-consumer",
+    "description": "Sample project that uses the pizza store library.",
+    "type": "project",
+    "require": {
+        "skairsan/pizza-store-lib": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SkairSan/lw5.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaStoreConsumer\\": "src/"
+        }
+    },
+    "license": "MIT"
+}

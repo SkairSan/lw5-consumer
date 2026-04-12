@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d5ed935d1dfa39d79d2164d5e55a02c0",
+    "packages": [
+        {
+            "name": "skairsan/pizza-store-lib",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SkairSan/lw5.git",
+                "reference": "a3013ecc57638f755a1ac25619b2036133143094"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SkairSan/lw5/zipball/a3013ecc57638f755a1ac25619b2036133143094",
+                "reference": "a3013ecc57638f755a1ac25619b2036133143094",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.12",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PizzaStoreLib\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpstan": [
+                    "phpstan analyse src"
+                ],
+                "cs": [
+                    "phpcs --standard=phpcs.xml src"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SkairSan"
+                }
+            ],
+            "description": "A PizzaStore library with Pizza and PizzaStore classes.",
+            "support": {
+                "source": "https://github.com/SkairSan/lw5/tree/main",
+                "issues": "https://github.com/SkairSan/lw5/issues"
+            },
+            "time": "2026-04-12T12:56:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "skairsan/pizza-store-lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
