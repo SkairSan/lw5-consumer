@@ -2,9 +2,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use PizzaStoreLib\NewYorkPizzaStore;
+use PizzaStoreConsumer\NewYorkPizzaStore;
 
 $store = new NewYorkPizzaStore();
 $store->orderPizza('margherita');
-$store->orderPizza('pepperoni');
+$store->orderPizza('pipperoni');
 $store->orderPizza('veggie');

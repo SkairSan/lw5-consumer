@@ -13,8 +13,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "PizzaStoreConsumer\\": "src/"
+            "PizzaStoreConsumer\\": "src/",
+            "PizzaStoreLib\\": "vendor/skairsan/pizza-store-lib/src/"
         }
     },
-    "license": "MIT"
+    "license": "MIT",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/phpstan": "^2.1"
+    }
 }
